@@ -6,14 +6,11 @@
 #        list[2] = City Located 
 #        list[3] = State Located 
 #        list[4] = Major
-student1 = ['emma', 3.4, 'saN Jose', 'CA', 'biology']
-student2 = ['derek', 3.2, 'FremoNT', 'wa', 'communications']
-student3 = ['tyler', 2.9, 'cHAPel Hill', 'nC', 'computer science']
-student4 = ['liz', 4, 'new YoRK City', 'ny', 'computer engineering']
-student5 = ['marie', 3.1, 'charLOTTESVILLE', 'vA', 'civil engineering']
-student6 = ['JohnsoN', 3.0, 'durhAM', 'Nc', 'electrical engineering']
-student7 = ['karinA', 2.1, 'daLLAs', 'tx', 'sociology']
-student8 = ['LUcas', 3.5, 'HoustOn', 'tx', 'computer science']
+emma = ['emma', 3.4, 'saN Jose', 'CA', 'biology']
+derek = ['derek', 3.2, 'FremoNT', 'wa', 'communications']
+tyler = ['tyler', 2.9, 'cHAPel Hill', 'nC', 'computer science']
+karina = ['karinA', 2.1, 'daLLAs', 'tx', 'sociology']
+lucas = ['LUcas', 3.5, 'HoustOn', 'tx', 'computer science']
 #### DO NOT CHANGE CODE ABOVE ####
 
 
@@ -22,6 +19,7 @@ student8 = ['LUcas', 3.5, 'HoustOn', 'tx', 'computer science']
 
 #### PART 1 ####
 # Add all five students to a list called all_students
+# Tip: Look at the Python Cheat Sheet for a function to do this!
 
 ##### YOUR CODE HERE #####
 
@@ -39,9 +37,9 @@ student8 = ['LUcas', 3.5, 'HoustOn', 'tx', 'computer science']
 """
 state = 'wa'
 city = 'kEnT'
-capitalized = city[0].upper()    # capitalized should be 'K'
-lower_case = city[1:].lower()    # lower_case should be 'ent'
-print('reformatted : ' + capitalized + lower_case + ', ' + state.upper())
+capitalized_city = city[0].upper()    # capitalized should be 'K'
+captialized_city_rest = city[1:].lower()    # lower_case should be 'ent'
+print('reformatted : ' + capitalized_city + captialized_city_rest + ', ' + state.upper())
 """
 
 ##### YOUR CODE HERE #####
