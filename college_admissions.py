@@ -12,17 +12,14 @@ tyler = ['tyler', 2.9, 'cHAPel Hill', 'nC', 'computer science']
 karina = ['karinA', 2.1, 'daLLAs', 'tx', 'sociology']
 lucas = ['LUcas', 3.5, 'HoustOn', 'tx', 'computer science']
 
+# Each set corresponds to a single student and their classes:
+
 emma_classes = {'AP Chemistry', 'AP Biology', 'English'}
 derek_classes = {'AP Physics', 'Teaching Academy', 'Creative Writing'}
 tyler_classes = {'AP Computer Science', 'Nanotechnology', 'Cisco'}
 karina_classes = {'Biology', 'AP Art History'}
 lucas_classes = {'AP Computer Science', 'AP Psychology'}
 #### DO NOT CHANGE CODE ABOVE ####
-
-
-
-
-
 
 
 #### PART 1 ####
@@ -44,9 +41,14 @@ lucas_classes = {'AP Computer Science', 'AP Psychology'}
 
 
 
+
+
+
+
+
 # Now the UW Seattle wants to process all of the students locations. Edit each student's city & state from their own list (for ex. Emma's list is emma) & save them to their own variable (for example: Emma's city & state can be in the variable emma_city & emma_state). 
 # To process all of the student's locations, we want to for example, print 'San Jose, CA' with S and J and the state name acronym being capitalized for Emma's location. Essentially for the city, we want the first letter capitalized and the rest would be lowercase. For the the acronym of the state, we want all letters to be capitalized. 
-#Note we can get the upper case version of a string using the function string.upper() and lower case using string.lower(). See the example below:
+# NOTE: We can get the upper case version of a string using the function string.upper() and lower case using string.lower(). See the example below:
 
 """ 
 # Uncomment this code (the 3-chained quotations) & run it!
@@ -58,6 +60,11 @@ print('reformatted : ' + capitalized_city + captialized_city_rest + ', ' + state
 """
 
 ##### YOUR CODE HERE #####
+
+
+
+
+
 
 
 
@@ -93,6 +100,11 @@ print('reformatted : ' + capitalized_city + captialized_city_rest + ', ' + state
 
 
 
+
+
+
+
+
 #### PART 2 ####
 # Let's try modifying the classes of each student's schedules contained in sets:
 # 1) Add 'AP Biology', 'AP American Literature', & 'Racquet Sports' to Emma's classes
@@ -104,6 +116,11 @@ print('reformatted : ' + capitalized_city + captialized_city_rest + ', ' + state
 # Was the elements in the set & their lengths what you expected to be printed after modifying them? Explain why your elements & length was printed this way. How is a set different from a list? (Write your answer as a comment below)
 
 ##### YOUR CODE HERE #####
+
+
+
+
+
 
 
 
