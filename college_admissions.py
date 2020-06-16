@@ -146,6 +146,7 @@ print(mike) # Prints the originally list modified: ['Mike', 'Wazowski', 3.4, 'Mo
 #
 # For example, if we looked at the list student1, we would print:
 # Accepted: Emma from San Jose, CA is interested in studying biology with a GPA of higher than or equal to a 3.0, so she is admitted to the University.
+
 ##### YOUR CODE HERE #####
 
 ''' Example for Mike is done for you :)
